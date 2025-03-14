@@ -1,0 +1,12 @@
+div {
+    color: red;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-image: url('../images/ziyad_background.png');  
+    background-size: cover;  /* Ensures the image covers the entire background */
+    background-position: center;  /* Centers the image */
+    background-attachment: fixed;  /* Keeps the background fixed while scrolling */
+}

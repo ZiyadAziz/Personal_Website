@@ -16,7 +16,7 @@ img {
 
 
 body {
-    background-image: url('../images/Ziyad.gif');  
+    background-image: url('../images/Ziyad.gif');  /* Probs change this to some sakura leaves or somethin */
     background-size: cover;  /* Ensures the image covers the entire background */
     background-position: center;  /* Centers the image */
     background-attachment: fixed;  /* Keeps the background fixed while scrolling */
@@ -27,17 +27,57 @@ body {
     justify-content: flex-start;
     background: beige;
     overflow: hidden;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #fff;  /* Optional: Add background color */
+    z-index: 1000;  /* Ensure it stays on top of other content */
+}
+
+.scrollingtextright { 
+    display: flex;
+    justify-content: flex-start;
+    background: beige;
+    overflow: hidden;
+
+    /* Edit this stuff so the marquee stays at the bottom */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #fff;  /* Optional: Add background color */
+    z-index: 1000;  /* Ensure it stays on top of other content */
 }
 
 h1 {
     font-size: 36px;
     white-space: nowrap;
     letter-spacing: 4px;
+    opacity: 0.5; /* Consider keeping the opacity */
+    animation: marqueeRight 5000ms linear infinite;
+}
+
+h2 {
+    font-size: 36px;
+    white-space: nowrap;
+    letter-spacing: 4px;
+    opacity: 0.5; /* Consider keeping the opacity */
     animation: marqueeLeft 5000ms linear infinite;
 }
 
 @keyframes marqueeLeft {
     0% {transform: translateX(0);}
     100% {transform: translateX(-100%);}
+}
+
+@keyframes marqueeRight {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
 }
   

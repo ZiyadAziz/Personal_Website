@@ -4,9 +4,40 @@ div {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+img {
+    width: 10%; /* Makes the image take up the full width of its container */
+    height: 10vh; /* Makes the image take up the full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    object-position: center; /* Centers the image */
+    position: fixed; /* Keeps the image fixed while scrolling */
+    top: 0;
+    left: 0;
+}
+
+
 body {
-    background-image: url('../images/ziyad_background.png');  
+    background-image: url('../images/Ziyad.gif');  
     background-size: cover;  /* Ensures the image covers the entire background */
     background-position: center;  /* Centers the image */
     background-attachment: fixed;  /* Keeps the background fixed while scrolling */
 }
+
+.scrollingtextleft {
+    display: flex;
+    justify-content: flex-start;
+    background: beige;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 36px;
+    white-space: nowrap;
+    letter-spacing: 4px;
+    animation: marqueeLeft 5000ms linear infinite;
+}
+
+@keyframes marqueeLeft {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-100%);}
+}
+  

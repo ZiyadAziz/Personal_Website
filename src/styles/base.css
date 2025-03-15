@@ -1,16 +1,57 @@
 div { /* Might want to apply this stuff to just the marquee, and have differnet stylization for the text*/
-    color: red;
+    color: black;
     font-size: 32px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
-    background-image: url('../images/Ziyad.gif');  /* Probs change this to some sakura leaves or somethin */
+    background-image: url('../images/cat.gif');  /* Probs change this to some sakura leaves or somethin */
     background-size: cover;  /* Ensures the image covers the entire background */
     background-position: center;  /* Centers the image */
     background-attachment: fixed;  /* Keeps the background fixed while scrolling */
+
+    margin: 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column; /* Aligns the content vertically */
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; /* You can change this to any font you like */
+    background-color: #f0f0f0; /* Optional: adds a background color */
 }
 
+/****************************************************/
+/* THIS STUFF IS FOR THE STYLING ON THE CENTER TEXT */
+/****************************************************/
+.name {
+  margin-bottom: 20px; /* Adds space below the name */
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Adds space between the items */
+}
+
+.navigation a {
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase; /* Optional: makes navigation items uppercase */
+  font-weight: 500;
+
+  text-decoration: none;
+  color: black;
+}
+
+.navigation a:hover {
+    text-decoration:underline;
+    color:rgb(79, 77, 77); /* figure out if the color is good */
+}
+
+
+/*************************************************************/
+/* THIS STUFF IS FOR THE SCROLLING TEXT ON THE TOP AND BOTTOM*/
+/*************************************************************/
 .scrollingtextleft {
     display: flex;
     justify-content: flex-start;
@@ -69,4 +110,4 @@ h2 {
     0% {transform: translateX(-100%);}
     100% {transform: translateX(0);}
 }
-  
+

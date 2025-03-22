@@ -9,7 +9,7 @@ main {
 }
 
 
-span {
+p {
     max-width: 600px;  /* Limits the span width to avoid it taking up too much space */
     word-wrap: break-word;  /* Ensures long words don't break the layout */
     margin-top: 20px;

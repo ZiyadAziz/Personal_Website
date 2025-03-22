@@ -9,7 +9,7 @@ main {
 }
 
 
-span {
+p {
     max-width: 600px;  /* Limits the span width to avoid it taking up too much space */
     word-wrap: break-word;  /* Ensures long words don't break the layout */
     margin-top: 20px;
@@ -17,6 +17,66 @@ span {
     font-size: 1rem;
     color: white;
 }
+
+/*****/
+/*This is how Lucas does his resume stuff*/
+
+/* .resume-iframe {
+    height: 50vw;
+    width: 100%;
+  }
+
+  .work-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25vw;
+    padding: 1rem;
+    text-align: left;
+    max-width: 50%;
+  }
+
+  .content-header {
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 2rem;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+
+  .content-work-header {
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 1rem;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+
+  .work-text {
+    margin-bottom: 2rem;
+  }
+
+  @media screen and (max-width: 636px) {
+    .work-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+      max-width: 90%;
+    }
+
+    .content-header {
+      text-align: center;
+    }
+
+    .content-work-header {
+      text-align: center;
+    }
+
+    .work-text {
+      text-align: center;
+    }
+  } */
+
+/*****/
 
 /****************************************************/
 /* THIS STUFF IS FOR THE STYLING ON THE CENTER TEXT */
@@ -31,6 +91,7 @@ span {
 body, html {
     height: 70%;
     display: flex;
+    
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;

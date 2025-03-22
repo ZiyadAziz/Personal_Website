@@ -1,9 +1,3 @@
-div { /* Might want to apply this stuff to just the marquee, and have differnet stylization for the text*/
-    color: white;
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Find better font */
-}
-
 body {
     /*background-image: url('../images/cat.gif');  /* Probs change this to some sakura leaves or somethin */
     background-color: #000000;
@@ -55,6 +49,9 @@ body {
     display: flex;
     justify-content: flex-start;
     overflow: hidden;
+    color: white;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     position: fixed;
     top: 0;
@@ -68,6 +65,9 @@ body {
     display: flex;
     justify-content: flex-start;
     overflow: hidden;
+    color: white;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     /* Edit this stuff so the marquee stays at the bottom */
     position: fixed;

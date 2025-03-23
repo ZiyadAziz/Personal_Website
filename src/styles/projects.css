@@ -1,27 +1,27 @@
-main {
+/* main {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 80%;  /* Prevents the main content from stretching too wide */
-    min-width: 300px;  /* Makes sure the content doesn't shrink too much */
+    max-width: 80%;  
+    min-width: 300px; 
 }
 
 
 p {
-    max-width: 600px;  /* Limits the span width to avoid it taking up too much space */
-    word-wrap: break-word;  /* Ensures long words don't break the layout */
+    max-width: 600px; 
+    word-wrap: break-word; 
     margin-top: 20px;
     line-height: 1.6;
     font-size: 1rem;
     color: white;
-}
+} */
 
 /****************************************************/
 /* THIS STUFF IS FOR THE STYLING ON THE CENTER TEXT */
 /****************************************************/
-.name {
+/* .name {
     text-decoration: none;
     color: white;
     font-size: 32px;
@@ -34,4 +34,4 @@ body, html {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-}
+} */

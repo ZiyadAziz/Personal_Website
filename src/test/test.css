@@ -7,6 +7,10 @@
     font-family: Arial, sans-serif;
 } */
 
+html, body {
+    margin: 0; /* Remove default margin */
+}
+
 html { 
     height: 100%;
 }
@@ -19,9 +23,10 @@ body {
 
     display: flex;
     flex-direction: column;
-    
-    /* Add this to short pages where scrolling isnt necessary*/
-    overflow: hidden;
+}
+
+header {
+    margin-bottom: 10%;
 }
 
 footer {
@@ -35,33 +40,6 @@ main {
     justify-content: center;
     align-items: center; 
 }
-
-/* main { */
-    /* text-align: center; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    
-    /* Prevents the main content from stretching too wide */
-    /* max-width: 80%;   */
-
-    /* Makes sure the content doesn't shrink too much */
-    /* min-width: 300px;   */
-/* } */
-
-
-/* p { */
-    /* Limits the span width to avoid it taking up too much space */
-    /* max-width: 600px;  */
-
-    /* Ensures long words don't break the layout */
-    /* word-wrap: break-word;   */
-    /* margin-top: 20px; */
-    /* line-height: 1.6; */
-    /* font-size: 1rem; */
-    /* color: white; */
-/* } */
 
 /****************************************************/
 /* THIS STUFF IS FOR THE STYLING ON THE CENTER TEXT */
@@ -100,7 +78,7 @@ main {
 /*************************************************************/
 /* THIS STUFF IS FOR THE SCROLLING TEXT ON THE TOP AND BOTTOM*/
 /*************************************************************/
-.leftmarquee {
+.topmarquee {
     display: flex;
     justify-content: flex-start;
     overflow: hidden;
@@ -116,7 +94,7 @@ main {
     white-space: nowrap; */
 }
 
-.rightmarquee { 
+.bottommarquee { 
     display: flex;
     justify-content: flex-start;
     overflow: hidden;

@@ -1,3 +1,7 @@
-body { /* This makes the text in the center */
-    height: 90vh;
+/* body { 
+    height: 80vh;
+} */
+/* makes the text more central */
+header { 
+    margin-bottom: 7%;
 }

@@ -21,39 +21,39 @@ p {
 /*****/
 /*This is how Lucas does his resume stuff*/
 
-/* .resume-iframe {
-    height: 50vw;
-    width: 100%;
-  }
+.resume-iframe {
+    height: 100vw;
+    width: 75vw;
+}
 
-  .work-container {
+.work-container {
     display: flex;
     flex-direction: column;
     margin-left: 25vw;
     padding: 1rem;
     text-align: left;
     max-width: 50%;
-  }
+}
 
-  .content-header {
+.content-header {
     font-weight: bold;
     font-size: x-large;
     margin-bottom: 2rem;
     font-family: 'DM Serif Display', sans-serif;
-  }
+}
 
-  .content-work-header {
+.content-work-header {
     font-weight: bold;
     font-size: x-large;
     margin-bottom: 1rem;
     font-family: 'DM Serif Display', sans-serif;
-  }
+}
 
-  .work-text {
+.work-text {
     margin-bottom: 2rem;
-  }
+}
 
-  @media screen and (max-width: 636px) {
+@media screen and (max-width: 636px) {
     .work-container {
       display: flex;
       flex-direction: column;
@@ -74,7 +74,7 @@ p {
     .work-text {
       text-align: center;
     }
-  } */
+}
 
 /*****/
 

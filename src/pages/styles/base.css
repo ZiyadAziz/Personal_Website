@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Superior';
+    src: url('../font/superior/SuperiorMedium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
     margin: 0; /* Remove default margin */
 }
@@ -49,7 +56,7 @@ main {
     text-decoration: none;
     color: #6C4E31;
     font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Superior, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .navigation {
@@ -84,7 +91,7 @@ main {
     overflow: hidden;
     color: #6C4E31;
     font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Superior, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     /* position: fixed;
     top: 0;
@@ -100,7 +107,7 @@ main {
     overflow: hidden;
     color: #6C4E31;
     font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Superior, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     /* Edit this stuff so the marquee stays at the bottom */
     /* position: fixed;

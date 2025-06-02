@@ -64,6 +64,7 @@ main {
     justify-content: center;
     gap: 30px; /* Adds space between the items */
     margin-bottom: 30px;
+    font-family: Superior, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .navigation a {
@@ -78,7 +79,7 @@ main {
 
 .navigation a:hover {
     text-decoration:underline;
-    color:rgb(79, 77, 77); /* figure out if the color is good */
+    color: black;
 }
 
 

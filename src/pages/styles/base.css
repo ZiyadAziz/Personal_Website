@@ -46,7 +46,7 @@ main {
 
     text-decoration: none;
     color: #6C4E31;
-    font-size: 32px; /* THIS CHANGES THE MIDDLE NAME TEXT SIZE */
+    font-size: 42px; /* THIS CHANGES THE MIDDLE NAME TEXT SIZE */
     font-family: Superior, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -115,7 +115,7 @@ h1 {
     white-space: nowrap;
     letter-spacing: 4px;
     /* opacity: 0.5; /* Consider keeping the opacity */
-    animation: marqueeRight 5000ms linear infinite;
+    animation: marqueeRight 7000ms linear infinite;
 }
 
 h2 {
@@ -123,7 +123,7 @@ h2 {
     white-space: nowrap;
     letter-spacing: 4px;
     /* opacity: 0.5; /* Consider keeping the opacity */
-    animation: marqueeLeft 5000ms linear infinite;
+    animation: marqueeLeft 8000ms linear infinite;
 }
 
 @keyframes marqueeLeft {

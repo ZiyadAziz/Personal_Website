@@ -102,9 +102,9 @@ body, html {
 /* THIS STUFF IS FOR THE SCROLLING TEXT ON THE TOP AND BOTTOM*/
 /*************************************************************/
 h1 {
-    animation: marqueeLeft 5000ms linear infinite;
+    animation: marqueeLeft 7000ms linear infinite;
 }
 
 h2 {
-    animation: marqueeRight 5000ms linear infinite;
+    animation: marqueeRight 7000ms linear infinite;
 }

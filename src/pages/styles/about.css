@@ -1,40 +1,6 @@
-/* main {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 80%;  
-    min-width: 300px; 
-}
-
-
 p {
-    max-width: 600px;  
-    word-wrap: break-word;  
-    margin-top: 20px;
-    line-height: 1.6;
-    font-size: 1rem;
-    color: white;
-} */
-
-/****************************************************/
-/* THIS STUFF IS FOR THE STYLING ON THE CENTER TEXT */
-/****************************************************/
-/* .name {
-    text-decoration: none;
-    color: white;
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50%;
 }
-
-body, html {
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
-} */
 
 
 /*************************************************************/

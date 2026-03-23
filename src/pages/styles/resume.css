@@ -18,9 +18,6 @@ p {
     color: white;
 } */
 
-/*****/
-/*This is how Lucas does his resume stuff*/
-
 .resume-iframe {
     height: 100vw;
     width: 75vw;
@@ -101,10 +98,10 @@ body, html {
 /*************************************************************/
 /* THIS STUFF IS FOR THE SCROLLING TEXT ON THE TOP AND BOTTOM*/
 /*************************************************************/
-h1 {
+/* h1 {
     animation: marqueeLeft 7000ms linear infinite;
 }
 
 h2 {
     animation: marqueeRight 7000ms linear infinite;
-}
+} */

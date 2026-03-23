@@ -38,11 +38,3 @@ article:first-of-type { /* Remove top bar */
     align-items: center;
     text-align: center;
 }
-
-h1 {
-    animation: marqueeLeft 7000ms linear infinite;
-}
-
-h2 {
-    animation: marqueeRight 7000ms linear infinite;
-}

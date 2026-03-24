@@ -1,63 +1,33 @@
-let orangegreen = localStorage.getItem('orangegreen')
-let blackwhite = localStorage.getItem('blackwhite')
-let pinkblack = localStorage.getItem('pinkblack')
+const PALETTES = ['orangegreen', 'blackwhite', 'pinkblack']; //Update this to add more palettes
 
-const themeSwitch = document.getElementById('theme-switch')
+const getActivePalette = () => PALETTES.find(p => localStorage.getItem(p) === 'active') ?? null;
 
-const enableOrangeGreen = () => {
-    document.body.classList.add('orangegreen')
-    localStorage.setItem('orangegreen' , 'active')
-}
+const enablePalette = (name) => {
+    document.body.classList.add(name);
+    localStorage.setItem(name, 'active');
+};
 
-const disableOrangeGreen = () => {
-    document.body.classList.remove('orangegreen')
-    localStorage.setItem('orangegreen' , null)
-}
+const disablePalette = (name) => {
+    document.body.classList.remove(name);
+    localStorage.removeItem(name);
+};
 
-const enableBlackWhite = () => {
-    document.body.classList.add('blackwhite')
-    localStorage.setItem('blackwhite' , 'active')
-}
+const disableAll = () => PALETTES.forEach(disablePalette);
 
-const disableBlackWhite = () => {
-    document.body.classList.remove('blackwhite')
-    localStorage.setItem('blackwhite' , null)
-}
+// Restore active palette on load
+const activePalette = getActivePalette();
+if (activePalette) enablePalette(activePalette);
 
-const enablePinkBlack = () => {
-    document.body.classList.add('pinkblack')
-    localStorage.setItem('pinkblack' , 'active')
-}
+// Cycle to the next palette on click
+document.getElementById('theme-switch').addEventListener('click', () => {
+    const active = getActivePalette();
+    const currentIndex = PALETTES.indexOf(active);
+    const nextIndex = (currentIndex + 1) % (PALETTES.length + 1); // +1 for the "none" state
 
-const disablePinkBlack = () => {
-    document.body.classList.remove('pinkblack')
-    localStorage.setItem('pinkblack' , null)
-}
+    disableAll();
 
-if(orangegreen === "active") enableOrangeGreen()
-
-if(blackwhite === "active") enableBlackWhite()
-
-if(pinkblack === "active") enablePinkBlack()
-
-themeSwitch.addEventListener("click", () => {
-    orangegreen = localStorage.getItem('orangegreen')
-    blackwhite = localStorage.getItem('blackwhite')
-    pinkblack = localStorage.getItem('pinkblack')
-
-    if(orangegreen === "active") {
-        disableOrangeGreen()
-        enableBlackWhite() /* Disable current color, enable the next color in the if block */
+    if (nextIndex < PALETTES.length) {
+        enablePalette(PALETTES[nextIndex]);
     }
-    else if (blackwhite === "active"){
-        disableBlackWhite()
-        enablePinkBlack()
-    }
-    else if (pinkblack === "active"){
-        disablePinkBlack()
-    }
-    else {
-        enableOrangeGreen()
-    }
-    
-})
+    // If nextIndex === PALETTES.length, we've wrapped to "no palette active" which is the coffee color scheme
+});

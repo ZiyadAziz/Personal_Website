@@ -26,8 +26,16 @@
 }
 
 #theme-switch{ /* Button styling, video has a preset I can try */
-    height: 50px;
-    width: 50px;
+    height: 32px;
+    width: 32px;
+    padding: 16px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 @font-face {
@@ -79,7 +87,7 @@ main {
 /* THIS STUFF IS FOR THE STYLING ON THE CENTER TEXT */
 /****************************************************/
 .name {
-    margin-bottom: 20px; /* Adds space below the name */
+    margin-bottom: 0px; /* Adds space below the name */
 
     text-decoration: none;
     color: var(--text-color);

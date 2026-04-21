@@ -1,55 +1,114 @@
-:root{
+:root{ /* Default theme colors */
     --base-color: #FFDBB5;
     --text-color: #6C4E31;
     --hover-color: black;
-    --article-seperator-color: rgb(99, 61, 61); /*The article seperators are in project.css and game.css, so I might have to move it there?, or move the seperators here */
+    --article-seperator-color: rgb(99, 61, 61);
 }
-.orangegreen{ /* Get better orange green colors than the default */
-    --base-color: #FBBB62;
-    --text-color: green;
+
+.orangegreen{ /* Orange + green palette */
+    --base-color: #F78914;
+    --text-color: green; 
     --hover-color: darkgreen; 
     --article-seperator-color: pink;
 }
 
-.pinkblack{ /* Get more colors, idk if this is good */
+.pinkblack{ /* Pink + black palette */
     --base-color: pink;
     --text-color: black;
     --hover-color: magenta; 
     --article-seperator-color: black;
 }
 
-.blackwhite{ /* basic palette, probs wanna do something more interesting, leaving it in for testing though*/
+.blackwhite{ /* Basic black + white palette (testing) */
     --base-color: black;
     --text-color: white;
     --hover-color: magenta; 
     --article-seperator-color: pink;
 }
 
-/* Dark blue/royal blue and green */
+.darkbluegreen{ /* Dark blue / royal blue + green */
+    --base-color: #0B1D3A;
+    --text-color: #A8E6CF; /* Make this a royal green */
+    --hover-color: #00FFAB;
+    --article-seperator-color: #1F4068;
+}
 
-/* pastel blue and dark blue */
+.pastelbluedarkblue{ /* Pastel blue + dark blue */
+    --base-color: #A7C7E7;
+    --text-color: #1B3B6F;
+    --hover-color: #274C77;
+    --article-seperator-color: #5FA8D3;
+}
 
-/* Gray and black */
+.grayblack{ /* Gray + black */
+    --base-color: grey;
+    --text-color: black;
+    --hover-color: #BDBDBD;
+    --article-seperator-color: #555555;
+}
 
-/* Dark Rose Red and orange */
+.roseorange{ /* Dark rose red + orange */
+    --base-color: #8B1E3F;
+    --text-color: #FFD6A5;
+    --hover-color: #FF9E00;
+    --article-seperator-color: #C44536;
+}
 
-/* Mint and Pink */
+.mintpink{ /* Mint + pink */
+    --base-color: #98FF98;
+    --text-color: #FF4F81;
+    --hover-color: #FF85A1;
+    --article-seperator-color: #B4F8C8;
+}
 
-/* Pastel Green and White */
+.pastelgreenwhite{ /* Pastel green + white */
+    --base-color: #aaebaa;
+    --text-color: white;
+    --hover-color: #6FBF73;
+    --article-seperator-color: #A8D5BA;
+}
 
-/* Pastel Yellow and black */
+.pastelyellowblack{ /* Pastel yellow + black */
+    --base-color: #f8e67e;
+    --text-color: #000000;
+    --hover-color: #FFD60A;
+    --article-seperator-color: #E6C200;
+}
 
-/* Pink and red? */
+.pinkred{ /* Pink + red */
+    --base-color: #FFC0CB;
+    --text-color: #8B0000;
+    --hover-color: #FF4D6D;
+    --article-seperator-color: #C9184A;
+}
 
-/* Enderpeal Cyan and Green*/
+.salmonredgreen{ /* Salmon red + green */
+    --base-color: #FA8072;
+    --text-color: #1B5E20;
+    --hover-color: #43A047;
+    --article-seperator-color: #E57373;
+}
 
-/* Salmon red and green */
+.babybluebrown{ /* Baby blue + brown */
+    --base-color: #BDE0FE;
+    --text-color: #5C4033;
+    --hover-color: #8D6E63;
+    --article-seperator-color: #A2D2FF;
+}
 
-/* Baby blue and brown? */
+.artdecobrowngold{ /* Art deco brown + gold */
+    --base-color: #3E2723;
+    --text-color: #FFD700;
+    --hover-color: #FFB300;
+    --article-seperator-color: #8D6E63;
+}
 
-/* Art deco brown and gold */
-
-/* Raven purple and black */
+.ravenpurpleblack{ /* Raven purple + black */
+    --base-color: #533e52;
+    --text-color: #212121;
+    --hover-color: #A855F7;
+    --article-seperator-color: #4C1D95;
+}
 
 #theme-switch{ /* Button styling, video has a preset I can try */
     height: 32px;

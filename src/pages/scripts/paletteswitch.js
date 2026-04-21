@@ -1,4 +1,20 @@
-const PALETTES = ['orangegreen', 'blackwhite', 'pinkblack']; //Update this to add more palettes
+const PALETTES = [
+    'orangegreen',
+    'blackwhite',
+    'pastelgreenwhite',
+    'pinkblack',
+    'darkbluegreen',
+    'artdecobrowngold',
+    'pastelbluedarkblue',
+    'grayblack',
+    'roseorange',
+    'mintpink',
+    'pastelyellowblack',
+    'pinkred',
+    'babybluebrown',
+    'salmonredgreen',
+    'ravenpurpleblack'
+];
 
 const getActivePalette = () => PALETTES.find(p => localStorage.getItem(p) === 'active') ?? null;
 

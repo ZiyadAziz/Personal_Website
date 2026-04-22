@@ -6,8 +6,8 @@
 }
 
 .orangegreen{ /* Orange + green palette */
-    --base-color: #F78914;
-    --text-color: green; 
+    --base-color: #FF8521;
+    --text-color: #00954A; 
     --hover-color: darkgreen; 
     --article-seperator-color: pink;
 }

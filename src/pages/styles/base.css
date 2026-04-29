@@ -172,7 +172,7 @@ main {
 /* THIS STUFF IS FOR THE STYLING ON THE CENTER TEXT */
 /****************************************************/
 .name {
-    margin-bottom: 0px; /* Adds space below the name */
+    margin-bottom: 10px; /* Adds space below the name */
 
     text-decoration: none;
     color: var(--text-color);
@@ -184,7 +184,8 @@ main {
     display: flex;
     justify-content: center;
     gap: 30px; /* Adds space between the items */
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     font-family: Superior, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 

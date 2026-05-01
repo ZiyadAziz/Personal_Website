@@ -123,6 +123,10 @@
     cursor: pointer;
 }
 
+svg {
+    color: var(--text-color)
+}
+
 @font-face {
     font-family: 'Superior';
     src: url('../font/superior/SuperiorMedium.otf') format('opentype');

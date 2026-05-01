@@ -256,3 +256,16 @@ h2 {
     100% {transform: translateX(0);}
 }
 
+@media (max-width: 768px) {
+    .navigation {
+        gap: 15px;
+    }
+
+    .navigation a {
+        font-size: 16px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+}

@@ -1,29 +1,10 @@
-/* main {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 80%; 
-    min-width: 300px;  
-}
-
-
-p {
-    max-width: 600px;  
-    word-wrap: break-word;  
-    margin-top: 20px;
-    line-height: 1.6;
-    font-size: 1rem;
-    color: white;
-} */
 
 .resume-iframe {
     height: 100vw;
     width: 75vw;
 }
 
-.work-container {
+/* .work-container {
     display: flex;
     flex-direction: column;
     margin-left: 25vw;
@@ -48,9 +29,12 @@ p {
 
 .work-text {
     margin-bottom: 2rem;
-}
+} */
 
-@media screen and (max-width: 636px) {
+
+/* This is for mobile viewing */
+
+/* @media screen and (max-width: 636px) {
     .work-container {
       display: flex;
       flex-direction: column;
@@ -71,37 +55,4 @@ p {
     .work-text {
       text-align: center;
     }
-}
-
-/*****/
-
-/****************************************************/
-/* THIS STUFF IS FOR THE STYLING ON THE CENTER TEXT */
-/****************************************************/
-/* .name {
-    text-decoration: none;
-    color: white;
-    font-size: 32px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-body, html {
-    height: 70%;
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
-} */
-
-
-/*************************************************************/
-/* THIS STUFF IS FOR THE SCROLLING TEXT ON THE TOP AND BOTTOM*/
-/*************************************************************/
-/* h1 {
-    animation: marqueeLeft 7000ms linear infinite;
-}
-
-h2 {
-    animation: marqueeRight 7000ms linear infinite;
 } */

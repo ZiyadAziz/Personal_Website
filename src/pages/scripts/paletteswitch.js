@@ -1,10 +1,10 @@
 const PALETTES = [
     'orangegreen',
     'blackwhite',
-    'pastelgreenwhite',
     'pinkblack',
     'darkbluegreen',
     'artdecobrowngold',
+    'pastelgreenwhite',
     'pastelbluedarkblue',
     'grayblack',
     'roseorange',

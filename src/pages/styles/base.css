@@ -127,13 +127,6 @@ svg {
     color: var(--text-color)
 }
 
-@font-face {
-    font-family: 'Superior';
-    src: url('../font/superior/SuperiorMedium.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html, body {
     margin: 0; /* Remove default margin */
 }
@@ -181,7 +174,8 @@ main {
     text-decoration: none;
     color: var(--text-color);
     font-size: 40px; /* THIS CHANGES THE MIDDLE NAME TEXT SIZE */
-    font-family: Superior, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .navigation {
@@ -190,7 +184,7 @@ main {
     gap: 30px; /* Adds space between the items */
     margin-top: 10px;
     margin-bottom: 0px;
-    font-family: Superior, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .navigation a {
@@ -218,7 +212,7 @@ main {
     overflow: hidden;
     color: var(--text-color);
     font-size: 32px;
-    font-family: Superior, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .scrollingtextright { 
@@ -227,7 +221,7 @@ main {
     overflow: hidden;
     color: var(--text-color);
     font-size: 32px;
-    font-family: Superior, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h1 {
